@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void _dec() {
+  void _decrement() {
     setState(() {
       _counter--;
     });
@@ -75,7 +75,7 @@ class _MyHomePageState extends State<MyHomePage> {
             width: 10,
           ),
           FloatingActionButton(
-            onPressed: _dec,
+            onPressed: _decrement,
             tooltip: 'Decrement',
             child: const Icon(Icons.remove),
           ),
